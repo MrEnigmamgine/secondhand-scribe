@@ -1,0 +1,97 @@
+<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+        <style>
+            .spell {
+                border: 2px solid #999;
+                padding: 10px;
+                margin: 10px 0;
+                background-color: #e7dec1;
+                font-family: Bookman Headline, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+            }
+
+            .spell-name {
+                text-align: left;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-family: Berthold Baskerville;
+                color: #58180D;
+                margin-top: 0;
+                margin-bottom: 0;
+                margin-right: 0;
+            }
+            
+            .spell-name span {
+                display: inline-block;
+                margin-right: 0;
+            }
+
+            .spell-name span::first-letter {
+                font-size: 1.3em;
+            }
+
+            .spell-level {
+                font-size: 1.1em;
+                font-style: italic;
+            }
+
+            .spell-details {
+                justify-content: space-between;
+                margin-top: 5px;
+            }
+
+            .spell-details > div {
+                flex: 1 0 200px;
+                margin-bottom: 0px;
+            }
+
+            .spell-details span {
+                font-weight: bold;
+                margin-right: 5px;
+            }
+
+            .spell-description {
+                margin-top: 10px;
+            }
+
+            .spell-description p {
+                text-indent: 1em;
+                margin-bottom: 0;
+                margin-top: 0;
+            }
+
+            .spell-description p:first-child {
+                text-indent: 0em;
+            }
+
+        </style>
+
+        <div class="spell">
+            <h2 class="spell-name"><span>Secondhand</span> <span>Scribe</span></h2>
+            <div class="spell-level">
+            2nd-level Enchantment
+            </div>
+            <div class="spell-details">
+            <div class="spell-casting-time">
+                <span>Casting Time:</span> 1 action
+            </div>
+            <div class="spell-range">
+                <span>Range:</span> Self
+            </div>
+            <div class="spell-components">
+                <span>Components:</span> V, S, M (a detailed drawing of an ear and hand)
+            </div>
+            <div class="spell-duration">
+                <span>Duration:</span> 10 minutes
+            </div>
+            <div class="spell-description">
+                <p>You create a mystical link between your non-dominant hand and your opposite ear, causing the hand to write what the ear hears.</p>
+                <p>For the duration of the spell your magic causes your hand to automatically transcribe spoken words as long as you understand the language they are spoken in.</p>
+                <p><span>At Higher Levels.</span> When you cast this spell using a spell slot of 3rd level or higher, you can also transcribe languages that you don't know.</p>
+            </div>
+            </div>
+        </div>
+        
+    </div>
+  </foreignObject>
+</svg>
